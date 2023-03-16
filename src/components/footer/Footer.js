@@ -1,14 +1,14 @@
 import React from "react";
-import './Footer.css';
+import "./Footer.css";
 
-function Footer(){
-    return(
-        <div className="about_us">
-            
-            <h1>Footer</h1>
-           
-        </div>
-    );
+function Footer() {
+  return (
+    <div className="app-footer">
+      <hr />
+      &copy; Copyright Cyber Square. All Rights Reserved
+      <hr />
+    </div>
+  );
 }
 
 export default Footer;
